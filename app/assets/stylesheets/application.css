@@ -13,9 +13,36 @@
  *= require devise_bootstrap_views
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
 
  body{
    padding: 0px;
    margin: 0px;
  }
+
+.log{
+  float: right;
+}
+
+.log .fa{
+  color: #fff !important;
+}
+
+.fa-sign-out{
+  color: #fff !important;
+}
+
+a:hover{
+  background-color: transparent;
+  text-decoration: none;
+  color: lightgrey !important;
+}
+
+.navbar{
+  background-color: #3c3c3c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
